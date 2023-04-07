@@ -1,0 +1,69 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: Verdana;
+    background-image: url(aasa.PNG);
+    background-size: 100%;
+    
+}
+#bmi-Kalkulator{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+div h1{
+    
+    font-size: 40px;
+    text-align: center;
+    color: rgb(7, 7, 92);
+}
+
+div h2{
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+
+}
+div form{
+    height: 200px;
+}
+
+div form label{
+    margin-left: 112px;
+}
+
+div form input{
+    margin-left: 112px;
+    width: 67%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+div button{
+    margin-left: 112px;
+    width: 67%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 92);
+    color: white;
+}
+
+#hasil{
+    text-align: center;
+    padding-bottom: 25px;
+}
